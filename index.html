@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainCont1">
+      <div class="sidebar">
+        <!-- Sidebar step1 -->
+        <div class="sidebarStep1 sidebarStep">
+          <div class="stepNo1 stepNo stepNoBgChanger">1</div>
+          <div class="stepNo1Text stepNoText">
+            <p class="stepTextPara">Step 1</p>
+            <p class="stepTextHeading">Your info</p>
+          </div>
+        </div>
+        <!-- Sidebar step2 -->
+        <div class="sidebarStep2 sidebarStep">
+          <div class="stepNo2 stepNo">2</div>
+          <div class="stepNo2Text stepNoText">
+            <p class="stepTextPara">Step 2</p>
+            <p class="stepTextHeading">Select Plan</p>
+          </div>
+        </div>
+        <!-- Sidebar step3 -->
+        <div class="sidebarStep3 sidebarStep">
+          <div class="stepNo3 stepNo">3</div>
+          <div class="stepNo3Text stepNoText">
+            <p class="stepTextPara">Step 3</p>
+            <p class="stepTextHeading">Add-ons</p>
+          </div>
+        </div>
+        <!-- Sidebar step4 -->
+        <div class="sidebarStep4 sidebarStep">
+          <div class="stepNo4 stepNo">4</div>
+          <div class="stepNo4Text stepNoText">
+            <p class="stepTextPara">Step 4</p>
+            <p class="stepTextHeading">Summary</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <!-- ----------Contact form 4------------- -->
+        <div class="contact5 contact">
+          <div class="contactFormCont">
+            <div class="contactCont thankYou">
+              <img src="./assets/images/icon-thank-you.svg" alt="" />
+              <h2>Thank you!</h2>
+              <p>
+                Thanks for confirming your subscription! We hope you have fun
+                using our platform. If you ever need support, please feel free
+                to email us at support@loremgaming.com.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------Contact form 4------------- -->
+        <div class="contact4 contact">
+          <div class="contactFormCont">
+            <div class="contactCont">
+              <h1 class="contactHeading">Finishing up</h1>
+              <p class="contactPara">
+                Double-check everything looks OK before confirming.
+              </p>
+
+              <div class="summaryShow">
+                <div class="planSummary">
+                  <div class="changePlan">
+                    <p id="para1"></p>
+                    <p class="changePlanText">Change</p>
+                  </div>
+                  <p id="para2"></p>
+                </div>
+                <div class="AddOnSummary">
+                  <div class="AddOnOnlineSummary">
+                    <p id="para3"></p>
+                    <p id="para4"></p>
+                  </div>
+                  <div class="AddOnLargerSummary">
+                    <p id="para5"></p>
+                    <p id="para6"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="totalSummary">
+                <p class="planSummary1">Total</p>
+                <p class="priceSummary">Total</p>
+              </div>
+            </div>
+            <div class="contactCont btnContStep2">
+              <button class="back" id="back3">Go Back</button>
+              <button class="submitBtn" id="submitBtn4">Confirm</button>
+            </div>
+          </div>
+        </div>
+        <!-- ----------Contact form 3------------- -->
+        <div class="contact3 contact">
+          <div class="contactFormCont">
+            <div class="contactCont">
+              <h1 class="contactHeading">Pick add-ons</h1>
+              <p class="contactPara">
+                Add-ons help enhance your gaming experience.
+              </p>
+              <!-- <p id="errorPara"></p> -->
+              <!-- checkbox -->
+              <!--  -->
+              <div class="planMonthly1">
+                <form action="#">
+                  <!-- checkbox1 -->
+                  <div class="box" data-id="1">
+                    <input
+                      type="checkbox"
+                      id="online"
+                      class="checkboxThirdLevel checkboxThirdLevel1"
+                    />
+                    <div class="description">
+                      <label for="online">Online service</label>
+                      <small>Access to multiplayer games</small>
+                    </div>
+                    <p class="price">+$1/mo</p>
+                  </div>
+                  <div class="box" data-id="2">
+                    <input
+                      type="checkbox"
+                      id="larger"
+                      class="checkboxThirdLevel"
+                    />
+                    <div class="description">
+                      <label for="larger">Larger storage</label>
+                      <small>Extra 1TB of cloud save</small>
+                    </div>
+                    <p class="price">+$2/mo</p>
+                  </div>
+                </form>
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="planYearly1 hidden1">
+                <form action="#">
+                  <!-- checkbox1 -->
+                  <div class="box" data-id="1">
+                    <input
+                      type="checkbox"
+                      id="online"
+                      class="checkboxThirdLevel checkboxThirdLevel1"
+                    />
+                    <div class="description">
+                      <label for="online">Online service</label>
+                      <small>Access to multiplayer games</small>
+                    </div>
+                    <p class="price">+$11/yr</p>
+                  </div>
+                  <div class="box" data-id="2">
+                    <input
+                      type="checkbox"
+                      id="larger"
+                      class="checkboxThirdLevel"
+                    />
+                    <div class="description">
+                      <label for="larger">Larger storage</label>
+                      <small>Extra 1TB of cloud save</small>
+                    </div>
+                    <p class="price">+$12/yr</p>
+                  </div>
+                </form>
+              </div>
+              <!--  -->
+            </div>
+            <div class="contactCont btnContStep2">
+              <button class="back" id="back2">Go Back</button>
+              <button class="submitBtn" id="submitBtn3">Next Step</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------Contact form 2------------- -->
+        <div class="contact2 contact">
+          <div class="contactFormCont">
+            <div class="contactCont">
+              <h1 class="contactHeading">Select your plan</h1>
+              <p class="contactPara">
+                You have the option of monthly or yearly billing.
+              </p>
+              <!-- Monthly plan -->
+              <div class="plans planMonthly">
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-arcade.svg" alt="" />
+                  <p class="planHeading">Arcade</p>
+                  <p class="planText">$12/mo</p>
+                </button>
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-advanced.svg" alt="" />
+                  <p class="planHeading">Advanced</p>
+                  <p class="planText">$15/mo</p>
+                </button>
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-pro.svg" alt="" />
+                  <p class="planHeading">Pro</p>
+                  <p class="planText">$18/mo</p>
+                </button>
+              </div>
+
+              <!-- Yearly plan -->
+
+              <div class="plans planYearly hidden">
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-arcade.svg" alt="" />
+                  <p class="planHeading">Arcade</p>
+                  <p class="planText">$120/yr</p>
+                </button>
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-advanced.svg" alt="" />
+                  <p class="planHeading">Advanced</p>
+                  <p class="planText">$150/yr</p>
+                </button>
+                <button class="planCategoryBtn">
+                  <img src="./assets/images/icon-pro.svg" alt="" />
+                  <p class="planHeading">Pro</p>
+                  <p class="planText">$180/yr</p>
+                </button>
+              </div>
+
+              <!-- Switcher -->
+
+              <div class="switcher">
+                <p class="SwitcherText SwitcherText1">Monthly</p>
+                <input type="checkbox" id="switch" /><label
+                  class="swicherMonthly"
+                  for="switch"
+                  >Toggle</label
+                >
+                <p class="SwitcherText SwitcherText2 switcherTextChange">
+                  Yearly
+                </p>
+              </div>
+            </div>
+
+            <div class="contactCont btnContStep2">
+              <button class="back" id="back1">Go Back</button>
+              <button class="submitBtn" id="submitBtn2">Next Step</button>
+            </div>
+          </div>
+        </div>
+        <!-- -------------Contact form 1------------- -->
+        <div class="contact1 contact">
+          <div class="contactCont contactCont1">
+            <div class="contact1headingCont">
+              <h1 class="contact1Heading contactHeading">Personal info</h1>
+              <p class="contact1Para contactPara">
+                Please provide your name, email address, and phone number.
+              </p>
+            </div>
+
+            <div class="contact1FormCont">
+              <form action="#">
+                <div class="inputField">
+                  <label for="Name">Name</label>
+                  <input type="text" name="Name" id="Name" required />
+                </div>
+                <div class="inputField">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    required
+                  />
+                </div>
+                <div class="inputField">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" required />
+                </div>
+                <div class="inputField1">
+                  <input type="submit" value="Next Step" id="inputSubmit" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 5 end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
