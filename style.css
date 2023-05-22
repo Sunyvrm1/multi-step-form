@@ -510,6 +510,7 @@ form input {
     grid-template-columns: 1fr;
   }
   .sidebar {
+    background-image: url(./assets/images/bg-sidebar-mobile.svg);
     border-radius: 0px;
     background-size: cover;
     padding: 35px 25px;
